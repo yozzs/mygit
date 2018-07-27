@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <servlet-name>RegisterUIServlet</servlet-name>
+    <servlet-class>com.youzi.web.UI.RegisterUIServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ImageServlet</servlet-name>
+    <servlet-class>com.youzi.web.conctroller.ImageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>com.youzi.web.conctroller.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginUIServlet</servlet-name>
+    <servlet-class>com.youzi.web.UI.LoginUIServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.youzi.web.conctroller.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LogoutSerlvet</servlet-name>
+    <servlet-class>com.youzi.web.conctroller.LogoutSerlvet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ListBookServlet</servlet-name>
+    <servlet-class>com.youzi.web.conctroller.ListBookServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>WatchServlet</servlet-name>
+    <servlet-class>com.youzi.web.conctroller.WatchServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LastPageServlet</servlet-name>
+    <servlet-class>com.youzi.web.conctroller.LastPageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NextPageServlet</servlet-name>
+    <servlet-class>com.youzi.web.conctroller.NextPageServlet</servlet-class>
+  </servlet>
+
+	<!-- <filter>
+		<filter-name>LoginFilter</filter-name>
+		<filter-class>com.youzi.web.filter.LoginFilter</filter-class>
+		<init-param>
+		<param-name>notCheckURLList</param-name>
+		<param-value>/index.jsp</param-value>
+		</init-param>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>LoginFilter</filter-name>
+		<url-pattern>/servlet/*</url-pattern>
+	</filter-mapping> -->
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>RegisterUIServlet</servlet-name>
+    <url-pattern>/servlet/RegisterUIServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ImageServlet</servlet-name>
+    <url-pattern>/servlet/ImageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/servlet/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginUIServlet</servlet-name>
+    <url-pattern>/servlet/LoginUIServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/servlet/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LogoutSerlvet</servlet-name>
+    <url-pattern>/servlet/LogoutSerlvet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ListBookServlet</servlet-name>
+    <url-pattern>/servlet/ListBookServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WatchServlet</servlet-name>
+    <url-pattern>/servlet/WatchServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LastPageServlet</servlet-name>
+    <url-pattern>/servlet/LastPageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NextPageServlet</servlet-name>
+    <url-pattern>/servlet/NextPageServlet</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

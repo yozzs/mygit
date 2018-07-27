@@ -1,0 +1,169 @@
+body{
+			text-align: center;
+			margin:0px;
+			padding: 0px;
+			background-color: rgb(127,27,188);
+		}
+		#container{
+    		background-color: rgb(127,27,188);
+    	}
+    	#title{
+    		font:"ºÚÌå";
+    		font-size: 80;
+    		background-color: rgb(191,43,223);
+    		background-image:url(../images/ctp.jpg);
+    		height: 100px;"
+    	}
+    	#book{
+    		position: ralative;
+    	}
+    	#left{
+    		margin-left:14px;
+    		width: 300px;
+    		height:770px;
+    		background-color: rgb(105,21,171);
+    		float:left;
+    	}
+    	
+    	#item{
+    		margin:10px;
+    		padding-left:10px;
+    		padding-right:10px;
+    		background-color: rgb(255,255,255);
+    		height: 620px;
+    		text-align: center;
+    	}
+    	.item1{
+    		margin-bottom: 5px;
+    	}
+    	.item11{
+    		width:240px;
+    		height:38px;
+    		margin-left:10px;
+    		background-image: url(../images/item11.jpg);
+    	}
+    	.item11h{
+    		color: rgb(255,255,255);
+    		padding-top: 7px;
+    	}
+    	.item11h a{
+    		color: rgb(255,255,255);
+    		text-decoration: none;
+    	}
+    	
+    	.item12{
+    		border-radius:5px;
+    		border: 1px solid rgb(105,21,171);
+    		height: 160px;
+    		width:240px;
+    		margin-left: 10px;
+    		color:rgb(105,21,171);
+    	}
+    	.item12 ul{
+    		list-style-type: none;
+    		list-style-image: url(../images/item11n.jpg);
+    		font-size: 20;
+    		margin-top: 5px;
+    	}
+    	.item12 ul li{
+    		text-align:left;
+    		margin-bottom: 3px;	
+    		margin-left: 25px;
+    	}
+    	.item12 ul li a{
+    		text-decoration: none;
+    	}
+    	.item12 ul li a:hover{
+    		text-decoration: underline;
+    		font-size: 22px;
+    	}
+    	
+    	#vers{
+    	}
+    	
+    	#mid{
+    		margin-left:10px;
+    		width:1180px;
+    		height:770px;
+    		float:left;
+    		background-color: rgb(105,21,171);
+    	}
+    	.buy{
+    		color:rgb(255,255,255);
+    	}
+    	.price{
+    		color:rgb(249,169,3);
+    	}
+    	.btn{
+    		float:left;
+    		width: 50px;
+    		height: 775px;
+    	}
+    	.btn input{
+    		width:46px;
+    		height: 764px;
+    		margin:3px 2px;
+    		border:2px solid  rgb(127,27,188);
+    		background-color: rgb(105,21,171);
+    		font-size: 50;
+    		color:rgb(255,255,255);
+    		cursor:hand;
+    	}
+    	
+    	
+    	#right{
+    		background-color: rgb(105,21,171);
+    		height:770px;
+    		width:380px;
+    		float:left;
+    		margin-left:10px;
+    	}
+    	#righttop{
+    		height: 600px;
+    		width:350px;
+    		margin:5px 10px;
+    		padding:5px;
+    		background-color: rgb(255,255,255);
+    	}
+    	#bookdesimg{
+    		width: 160px;
+    		height: 220px;
+    		padding: 5px;
+    		float:left;
+    		margin-bottom: 10px;
+    	}
+    	#bookdesbean{
+    		text-align:left;
+    		line-height:30px;
+    		width: 160px;
+    		height: 220px;
+    		padding: 5px;
+    		float:left;
+    		margin-left: 5px;
+    		color:rgb(105,21,171);
+    		margin-bottom: 10px;
+    	}
+    	#bookdestext{
+    		text-align:left;
+    		width: 327px;
+    		height: 330px;
+    		padding: 10px;
+    		color:rgb(105,21,171);
+    		clear: both;
+			
+    	}
+    	
+    	
+    	#rightdown{
+    		width: 360px;
+    	}
+    	#rightdown input{
+    		height:40px;
+    		width:360px;
+			border:2px solid  rgb(127,27,188);
+    		background-color: rgb(105,21,171);
+    		font-size: 20;
+    		color:rgb(255,255,255);
+    		margin-left: 11px;
+    		cursor:hand;
+    	}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="usercase"
+  id="myeclipse.1513133921572"
+  context-root="/usercase"
+  j2ee-spec="6.0"
+  archive="usercase.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
